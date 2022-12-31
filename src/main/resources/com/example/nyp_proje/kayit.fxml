@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nyp_proje.KayitController">
+   <children>
+      <VBox layoutX="108.0" layoutY="38.0" prefHeight="404.0" prefWidth="150.0" style="-fx-background-color: #636e72;">
+         <children>
+            <Label fx:id="label1" alignment="CENTER" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: #dfe6e9;" text="KULLANICI ADI">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="22.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="label2" alignment="CENTER" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: #dfe6e9;" text="ŞİFRE">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="22.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="label3" alignment="CENTER" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: #dfe6e9;" text="HASTA ADI">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="22.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="label4" alignment="CENTER" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: #dfe6e9;" text="HASTA SOYADI">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="22.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="label5" alignment="CENTER" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: #dfe6e9;" text="DOĞUM TARİHİ">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="22.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="label6" alignment="CENTER" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: #dfe6e9;" text="CİNSİYET">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="22.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="label7" alignment="CENTER" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: #dfe6e9;" text="KİLO">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="22.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="label8" alignment="CENTER" prefHeight="28.0" prefWidth="105.0" style="-fx-background-color: #dfe6e9;" text="BOY">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="22.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets bottom="20.0" right="10.0" />
+         </opaqueInsets>
+      </VBox>
+      <VBox layoutX="258.0" layoutY="32.0" prefHeight="410.0" prefWidth="224.0" style="-fx-background-color: #636e72;">
+         <opaqueInsets>
+            <Insets bottom="20.0" right="10.0" />
+         </opaqueInsets>
+         <children>
+            <TextField fx:id="t1" prefHeight="26.0" prefWidth="105.0" promptText="Kullanıcı adını giriniz">
+               <VBox.margin>
+                  <Insets bottom="14.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <PasswordField fx:id="p1" promptText="Şifrenizi giriniz">
+               <VBox.margin>
+                  <Insets bottom="14.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </PasswordField>
+            <TextField fx:id="t3" prefHeight="26.0" prefWidth="105.0" promptText="Adınızı giriniz">
+               <VBox.margin>
+                  <Insets bottom="14.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t4" prefHeight="26.0" prefWidth="105.0" promptText="Soyadınızı giriniz">
+               <VBox.margin>
+                  <Insets bottom="14.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <DatePicker fx:id="date" prefHeight="27.0" prefWidth="214.0" promptText="Doğum tarihini giriniz">
+               <VBox.margin>
+                  <Insets bottom="14.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </DatePicker>
+            <TextField fx:id="t5" prefHeight="26.0" prefWidth="105.0" promptText="Cinsiyetinizi Giriniz">
+               <VBox.margin>
+                  <Insets bottom="14.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t6" prefHeight="26.0" prefWidth="105.0" promptText="Kilonuzu giriniz">
+               <VBox.margin>
+                  <Insets bottom="14.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t7" prefHeight="26.0" prefWidth="105.0" promptText="Boyunuzu giriniz">
+               <VBox.margin>
+                  <Insets bottom="14.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+      <Button fx:id="sifirla" layoutX="488.0" layoutY="266.0" mnemonicParsing="false" onAction="#sifirla" prefHeight="53.0" prefWidth="105.0" style="-fx-background-color: #d63031;" text="SIFIRLA" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="ana_menu" layoutY="-2.0" mnemonicParsing="false" onAction="#ana_menu" prefHeight="40.0" prefWidth="111.0" style="-fx-background-color: #dfe6e9;" text="◀    ANA SAYFA">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="kayit_ol" layoutX="488.0" layoutY="335.0" mnemonicParsing="false" onAction="#kayit" prefHeight="53.0" prefWidth="105.0" style="-fx-background-color: #00b894;" text="KAYIT OL" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="111.0" layoutY="-2.0" prefHeight="40.0" prefWidth="490.0" style="-fx-background-color: #2d3436;" text="HASTA KAYIT EKRANI" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font></Label>
+      <Pane layoutY="37.0" prefHeight="404.0" prefWidth="111.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="104.0" fitWidth="111.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@indir.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
